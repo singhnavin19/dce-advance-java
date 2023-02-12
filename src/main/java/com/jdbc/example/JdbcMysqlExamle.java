@@ -1,4 +1,4 @@
-package com.gdbc.example;
+package com.jdbc.example;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
