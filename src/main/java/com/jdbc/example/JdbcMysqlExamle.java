@@ -16,7 +16,7 @@ public class JdbcMysqlExamle {
 		//2. Create connection:
 		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/java_2023","root","root");
 		
-		//3. Create statement:
+		//3. Create statement: gc
 		Statement stmt=con.createStatement();
 		
 		//4. Execute statement:
