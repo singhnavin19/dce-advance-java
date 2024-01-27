@@ -1,0 +1,44 @@
+What is a Functional Interface:-  
+
+		○ A functional interface is an interface that contains only one abstract method. 
+		○ They are also known as SAM(Single Abstract Method) interfaces
+		○ Functional Interface in Java enables users to implement functional programming[function is an independent entity] in Java
+		○ They can include any quantity of default and static methods
+
+
+@FunctionalInterface Annotation 
+		○ @FunctionalInterface annotation is used to ensure that the functional interface can’t have more than one abstract method. 
+		○ In case more than one abstract methods are present, the compiler flags an ‘Unexpected @FunctionalInterface annotation’ message. 
+		○ However, it is not mandatory to use this annotation
+
+
+Some Built-in Java Functional Interfaces
+
+	• Runnable –> This interface only contains the run() method.
+	• Comparable –> This interface only contains the compareTo() method.
+	• ActionListener –> This interface only contains the actionPerformed() method.
+	• Callable –> This interface only contains the call() method.
+
+
+There are Two Ways to Use Functional Interfaces in a Class:
+
+	1. Using Lambda Expression:- Just have to import the interface. We are not required to implement it in our class to use the Functional Interface
+	 Lambda expressions are just like methods in java but they make the code short, clean, and readable. 
+	 They are also called anonymous functions. 
+	 Thus, they are used more frequently with functional interfaces in Java.
+	
+	Syntax:
+	
+	InterfaceName tempName = (<parameters>) -> {
+	    // implementation of the abstract method of the Functional Interface
+	};
+	// to use this method
+	tempName.absName();
+	
+	
+	
+	2.  By Implementing the Interface
+	
+
+  
+	
