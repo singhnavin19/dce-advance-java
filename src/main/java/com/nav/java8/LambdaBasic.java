@@ -1,5 +1,9 @@
 package com.nav.java8;
 
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 @FunctionalInterface
 interface SayHello {
 	void sayHello();
@@ -48,5 +52,21 @@ public class LambdaBasic {
 			return "Hello " + n1 + " bye Bye " + n1;
 		};
 		System.out.println(m1.sayHelloAndByeBye("Suraj"));
+
+		Consumer<String> hello = (name) -> {
+			System.out.println("hello " + name);
+		};
+		hello.accept("Navin");
+
+		Predicate<Integer> ageCheck = (age) -> {
+			if (age >= 60) {
+				return true;
+			} else {
+				return false;
+			}
+		};
+		System.out.println(ageCheck.test(6));
+		
+
 	}
 }

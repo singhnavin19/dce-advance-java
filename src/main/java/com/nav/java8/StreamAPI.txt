@@ -1,0 +1,17 @@
+• Stream API is used to process collections of objects.
+• A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
+• manipulate collections of data in a declarative way (you express a query rather than code an ad hoc implementation for it).
+• Streams can be processed in parallel transparently, without you having to write any multithreaded code
+	
+The features of Java stream are –
+
+• A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
+• Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
+• the Streams API in Java 8 lets you write code that’s
+	○  Declarative— More concise and readable
+	○  Composable— Greater flexibility
+	○  Parallelizable— Better performance
+	
+
+
+
