@@ -1,0 +1,47 @@
+1. 🛍️ E-commerce: Shopping Cart Management 
+Question: 
+An e-commerce application needs to manage a user's shopping cart. Create a Java program using an ArrayList<String> to represent the cart. 
+Tasks: 
+Initialize the cart with three items: "Laptop", "Mouse", and "Keyboard". 
+Add a new item, "Monitor", to the cart. 
+Check if the cart currently contains "Mouse". Print the result. 
+Remove the item "Keyboard" from the cart. 
+Print the final list of items in the shopping cart and the total number of items remaining. 
+2. 📝 Task Manager: To-Do List Filtering 
+Question: 
+You are developing a simple Task Management application. Use an ArrayList<String> to hold a list of tasks. 
+Tasks: 
+Initialize the list with five tasks, including at least two starting with the prefix "Urgent: ". 
+Example: "Finish Report", "Urgent: Call Client", "Review Code", "Urgent: Pay Bills", "Schedule Meeting". 
+Iterate through the task list. 
+Create a new ArrayList<String> called urgentTasks. 
+Filter the original list: Add any task that starts with the string "Urgent: " to the urgentTasks list. 
+Print both the original task list and the filtered urgentTasks list. 
+3. 📊 Data Processing: Deduplication and Indexing 
+Question: 
+A data intake system receives a stream of user IDs, which may contain duplicates. Use ArrayList<Integer> to store the IDs and perform cleanup/indexing. 
+Tasks: 
+1. Initialize an ArrayList<Integer> with the following IDs: 101, 205, 101, 310, 400, 205, 101. 
+2. Find the first index of the duplicate ID 101 and print it. 
+3. Find the last index of the duplicate ID 101 and print it. 
+4. Deduplication: Create a new ArrayList<Integer> called uniqueIDs. Iterate through the original list and only add an ID to uniqueIDs if it's not already present (This leverages uniqueIDs.contains()). 
+5. Print the final uniqueIDs list. 
+4. 📈 Banking Application: Transaction Log 
+Question: 
+A basic banking application needs to track recent transactions (as Double values).1 
+Tasks: 
+1. Create an ArrayList<Double> called transactions and add the following values: 500.00, -50.50, 1200.75, -10.00, 25.00. (Positive values are deposits, negative are withdrawals). 
+2. Iterate through the list and calculate the current balance. 
+3. Create a separate new ArrayList<Double> called withdrawals. 
+4. Filter and copy all the negative transactions (withdrawals) from the original list into the withdrawals list. 
+5. Print the calculated current balance and the list of recorded withdrawals. 
+5. 🧑‍🤝‍🧑 Social Media: Managing Followers 
+Question: 
+Imagine you are managing a list of a user's followers (String names). This scenario highlights the performance hit of removing elements from the middle of an ArrayList. 
+Tasks: 
+1. Create an ArrayList<String> called followers with the following names: "Alice", "Bob", "Charlie", "David", "Eve", "Frank". 
+2. Insert a new follower "Grace" at index 2 (between Bob and Charlie). Print the list. 
+3. A follower, "David", has unfollowed. Remove "David" by its value (not index). 
+4. A different follower at index 0 (the current first follower) is removed. Remove "Alice" by its index. 
+5. Print the final list of followers, noting how the removal operations are less efficient than just getting/setting elements. 
+Would you like to start with the E-commerce Shopping Cart program first? 

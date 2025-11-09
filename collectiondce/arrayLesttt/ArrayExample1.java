@@ -1,8 +1,7 @@
-package collectiondce;
+package collectiondce.arrayLesttt;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class ArrayExample1 {
     public static void main(String[] args) {
