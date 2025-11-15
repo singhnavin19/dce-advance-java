@@ -1,4 +1,7 @@
-1. 🛍️ E-commerce: Shopping Cart Management 
+https://www.w3resource.com/java-exercises/collection/array-list.php
+
+
+1. 🛍️ E-commerce: Shopping Cart Management
 Question: 
 An e-commerce application needs to manage a user's shopping cart. Create a Java program using an ArrayList<String> to represent the cart. 
 Tasks: 
