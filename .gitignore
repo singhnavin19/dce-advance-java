@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/dce-advance-java.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+out/production/dce-advance-java/.idea/dce-advance-java.iml
+out/production/dce-advance-java/.idea/misc.xml
+out/production/dce-advance-java/.idea/modules.xml
+out/production/dce-advance-java/.idea/vcs.xml
