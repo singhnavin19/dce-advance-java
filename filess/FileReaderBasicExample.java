@@ -9,7 +9,6 @@ public class FileReaderBasicExample {
         FileReader fileReader=new FileReader("reshma3.txt");
         int r=fileReader.read();
         while (r!=-1){
-            System.out.print((char)r);
             r=fileReader.read();
         }
     }
