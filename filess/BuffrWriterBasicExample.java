@@ -13,6 +13,7 @@ public class BuffrWriterBasicExample {
         bufferedWriter.newLine();
         bufferedWriter.write("Bye Bye");
         bufferedWriter.close();
+        System.out.println(Thread.currentThread().getName());
 
 
 
